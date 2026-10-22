@@ -9,7 +9,7 @@ load_dotenv()
 USER = os.getenv("USER")
 PASSWORD = os.getenv("PASSWORD")
 HOST = os.getenv("HOST")
-PORT = os.getenv("PORT")
+PORT = os.getenv("DB_PORT")
 DBNAME = os.getenv("DBNAME")
 
 if not all([USER, PASSWORD, HOST, PORT, DBNAME]):
